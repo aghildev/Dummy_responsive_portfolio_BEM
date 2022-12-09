@@ -14,3 +14,32 @@
     align-self: start;
     margin-top: 20px;
 }
+
+/**
+*! stylerules for sectionTwo
+**/
+
+.sectionTwo__content--text{
+   font-family:var(--font-2);
+   margin-top:var(--sub)
+}
+
+.sectionTwo__logo{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.sectionTwo__logo img{
+    justify-self: center;
+    align-self: center;
+}
+
+.sectionTwo{
+    padding: 40px 0;
+    display: grid;
+    gap:30px;
+}
+
+.sectionTwo__btn{
+    justify-self: center;
+}
