@@ -120,6 +120,11 @@
     justify-self: center;
 }
 
+
+/**
+*! stylerules for Media queries
+**/
+
 @media(max-width:1200px){
     .sectionTwo__logo{
        grid-template-columns: repeat(3,1fr);
@@ -136,6 +141,7 @@
     .sectionFive__cards{
         grid-template-columns: repeat(2,1fr);
     }
+   
   
 }
 
